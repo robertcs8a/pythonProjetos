@@ -10,6 +10,8 @@ print(len(nome))
 nome = nome.upper()  # muda todos caracteres para maiuscula
 print(nome)
 nome = nome.lower()  # muda todos caracteres para minuscula
+
+
 print(nome)
 print("Quantidade de letras sem considerar espaços")
 nome_sem_espaco = len(nome.replace(" ", ""))
