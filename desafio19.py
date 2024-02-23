@@ -1,5 +1,5 @@
 import random
-
+print('sorteio do professor para escolher aluno que pode ajuda-lo')
 p1 = input('aluno um :')
 p2 = input('aluno dois :')
 p3 = input('aluno três :')

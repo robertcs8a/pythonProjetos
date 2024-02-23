@@ -5,18 +5,14 @@ join(): junta uma lista de strings em uma única string com base no separador es
 replace(): substitui todas as ocorrências de um caractere ou substring por outra.
 capitalize(): retorna uma cópia da string com a primeira palavra iniciando em maiúscula, e as demais letras minúsculas.
 title(): Retorna uma cópia da string com todas as palavras iniciando em maiúscula, e as demais letras minúsculas."""
-nome = 'Jose Alencar Silva'
-print(len(nome))
-nome = nome.upper()  # muda todos caracteres para maiuscula
-print(nome)
-nome = nome.lower() # muda todos caracteres para minuscula
+nome = input('digite nome completo : ')
+print(f'quantidade de letras da variavel = { (len(nome))}')
 
-teste
-print(nome)
-print("Quantidade de letras sem considerar espaços")
-nome_sem_espaco = len(nome.replace(" ", ""))
-print(nome_sem_espaco)
+print(f'muda todas as letras para maiuscula = {nome.upper()}')
 
-print("Quantidade de letras tem o primeiro nome")
-primeiro_nome_sem_espaco = len(nome.split()[0])
-print(primeiro_nome_sem_espaco)
+print(f'muda todas as letra para minusculas = {nome.lower()}')
+
+print(f"Quantidade de letras sem considerar espaços = {len(nome.replace(" ", ""))}")
+
+print(f"Quantidade de letras que tem o primeiro nome = { len(nome.split()[0])}")
+

@@ -1,0 +1,5 @@
+number = (input('Informe um numero :'))
+print(f'milhar : {number[:1]}')
+print(f'centena : {number[1:2]} ')
+print(f'dezena : {number[2:3]}')
+print(f'unidade : {number[3:4]}')

@@ -1,12 +1,11 @@
-nome1: str
-cont = 0
+
 nome1 = input('Nome do aluno : ')
-while nome1 != 0:
-    cont = cont + nome1:
- print(f'olá {nome1}, seja bem vindo.')
+
+print(f'olá {nome1}, seja bem vindo.')
 x = float(input(f'entre com a primeira nota do aluno {nome1} :'))
 y = float(input(f'entre com a outra nota do aluno  {nome1} :'))
 conta1 = (x + y) / 2
+
 if conta1 < 3:
     print('vc foi reprovado')
 elif conta1 > 5:
