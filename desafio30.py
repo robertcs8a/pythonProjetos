@@ -4,4 +4,3 @@ if n % 2 == 0:
   print(f'{n} = numero par')
 else:
   print(f'{n} = numero impar')
-   
