@@ -1,7 +1,7 @@
 #Analise da quantida, posiçao inicial e final que aparece a letra "a" no texto 
 # rfind localiza a primeira letra a partir do lado direito (rfind = a riht find)
 
-frase = str(input('informe um texto a ser verificado : ')).upper().lower().strip()
+frase = str(input('informe um texto a ser verificado : ')).lower().strip()
 
 print(f'A letra a aparece {frase.count('a')} vezes no texto')
 print(f'A primeira letra (a) aparece na posição {frase.find('a')+1} ')

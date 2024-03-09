@@ -4,6 +4,6 @@ b = int(input('digite a segunda medida: '))
 c = int(input('digite a terceira medida: '))
 triangulo = a + b > c and b + c > a and c + a > b
 if triangulo == True:
-    print(f'sim as medidas informadas forma um triangulo')
+    print(f'sim as medidas informadas formam um triangulo')
 else:
     print('não é possivel formar um triangulo com as medidas infomadas')
