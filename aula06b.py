@@ -1,2 +1,2 @@
-n = (input('digite um valor:')
-     print(n.isalpha())
+n = (input('digite um valor:'))
+print(n.isalpha())

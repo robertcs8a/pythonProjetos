@@ -5,6 +5,7 @@ join(): junta uma lista de strings em uma única string com base no separador es
 replace(): substitui todas as ocorrências de um caractere ou substring por outra.
 capitalize(): retorna uma cópia da string com a primeira palavra iniciando em maiúscula, e as demais letras minúsculas.
 title(): Retorna uma cópia da string com todas as palavras iniciando em maiúscula, e as demais letras minúsculas."""
+
 nome = input('digite nome completo : ')
 print(f'quantidade de letras da variavel = { (len(nome))}')
 

@@ -1,4 +1,7 @@
-print('localizar o nome "Santo" no inicio do Nome das Cidades Informadas ')
-city = str(input('Informe o nome da Cidade : '))
+# procura se tem o nome especifidao na string (city)
+# metodo usado fatiamento de caracteres 
 
-print('Santo'in city[::1])
+#localizar o nome "Santo" no inicio do Nome das Cidades Informadas
+city = str(input('Informe o nome da Cidade : ')).upper().lower().strip()
+
+print( city[:5] == 'santo')

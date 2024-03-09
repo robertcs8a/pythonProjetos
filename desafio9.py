@@ -1,4 +1,4 @@
-n = int(input('digite um numero da tabuada :'))
+n = int(input('type a number : :'))
 
 print(f'{n:2} x  {1} = {n * 1:2}')
 print(f'{n:2} x  {2} = {n * 2:2}')

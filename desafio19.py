@@ -1,3 +1,4 @@
+# comando randonico sorteio aleatorio
 import random
 print('sorteio do professor para escolher aluno que pode ajuda-lo')
 p1 = input('aluno um :')
