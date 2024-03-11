@@ -13,5 +13,6 @@ if velocit > 80 :
         print('sua habilitação sera suspensa procure um orgão responsavel')
 
 else:
-   print(f'voce esta dentro do limite permitido')  
+   print(f'voce esta dentro do limite permitido') 
+   print('Boa Viagem') 
    

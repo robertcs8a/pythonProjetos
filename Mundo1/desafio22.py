@@ -6,7 +6,7 @@ replace(): substitui todas as ocorrências de um caractere ou substring por outr
 capitalize(): retorna uma cópia da string com a primeira palavra iniciando em maiúscula, e as demais letras minúsculas.
 title(): Retorna uma cópia da string com todas as palavras iniciando em maiúscula, e as demais letras minúsculas."""
 
-nome = input('digite nome completo : ')
+nome = str(input('digite nome completo : ')).strip()  
 print(f'quantidade de letras da variavel = { (len(nome))}')
 
 print(f'muda todas as letras para maiuscula = {nome.upper()}')
