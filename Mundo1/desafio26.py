@@ -1,5 +1,5 @@
-#Analise da quantida, posiçao inicial e final que aparece a letra "a" no texto 
-# rfind localiza a primeira letra a partir do lado direito (rfind = a riht find)
+#Analise da quantidade, posiçao inicial e final que aparece a letra "a" no texto 
+# rfind localiza a primeira letra a partir do lado direito (rfind = abeviação de right find)
 
 frase = str(input('informe um texto a ser verificado : ')).lower().strip()
 

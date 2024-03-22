@@ -14,5 +14,5 @@ if velocit > 80 :
 
 else:
    print(f'voce esta dentro do limite permitido') 
-   print('Boa Viagem') 
+   print('Boa Viagem....!') 
    

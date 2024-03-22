@@ -1,3 +1,4 @@
+# advinhar numero que a maquina escolhe
 from random import randint
 computador = randint(0,5)
 print('_' * 35)
