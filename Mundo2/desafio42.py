@@ -1,3 +1,4 @@
+# triangulos m2
 a = int(input('digite a primeira medida: '))
 b = int(input('digite a segunda medida: '))
 c = int(input('digite a terceira medida: '))
