@@ -1,4 +1,4 @@
-#cauculo de hipotenusa (hypot imortação direta da biblioteca match)
+#cauculo de hipotenusa (hypot importação direta da biblioteca math)
 import math
 cat_opost = float(input('imforme a medida do cateto oposto :'))
 cat_adjacent = float(input('informe a medida do cateto ajacente :'))

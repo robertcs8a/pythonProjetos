@@ -1,14 +1,29 @@
-
+'''Exercício Python 39: Faça um programa que leia o ano de nascimento de um jovem e informe,
+de acordo com a sua idade, se ele ainda vai se alistar ao serviço militar,
+se é a hora exata de se alistar ou se já passou do tempo do alistamento. 
+Seu programa também deverá mostrar o tempo que falta ou que passou do prazo.'''
+from datetime import date
 # alistamento
-data_nac = int(input('Qual é sua data de nascimento? '))
-print(f'data de nascimento informada = {data_nac}') 
-idade = int(2024 - data_nac)
-menor_maior =  int (data_nac - 2006) # resultado = 0 o valor é sempre 18
-if idade < 18:
-    print(f'sua idade é {idade} anos faltam {menor_maior} anos para voce se alistar')
-if idade > 18:
-    print(f'voce agora já esta com  {idade} anos e já passou {menor_maior} anos do periodo de se alistar ')
-elif menor_maior == 0:
-    print('parabens sua idade é 18 anos ideal para se alistar')
+atual = date.today().year 
+
+data_nasc = int(input('Qual é a sua data de nascimento? '))
+
+print(data_nasc)
+
+idade = (atual - data_nasc)
+
+print(idade)
+
+if idade == 18:
     
+    print(f'quem nasceu em {data_nasc} tem {idade} anos em {atual}.\nE esta no momento exato para se alistar ')
     
+elif idade > 18:
+    saldo = idade - 18
+    ano = atual - saldo
+    print(f' quem nasceu em  {data_nasc} tem {idade} anos e já passou  {saldo} anos\n E deveria se alistar em {ano} ')
+    
+else:
+    saldo =  18 - idade
+    ano = atual + saldo
+    print(f' quem nasceu em  {data_nasc} tem {idade} anos e ainda faltam  {saldo} anos\n E deve se alistar em {ano}  ')

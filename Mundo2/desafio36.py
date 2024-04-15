@@ -7,12 +7,12 @@ casa = float(input('valor:'))
 print(f'Ótimo! me informe o seu salario :')
 salario = float(input('salario :'))
 porcen = (salario * 30 / 100)
-print(f'de acordo com seu salario seu limite mensal é de {porcen}')
+print(f'de acordo com seu salario seu limite mensal é de {porcen:.2f}')
 
 anos = int(input(f'obrigado! em quantos anos  pretende pagar esse imovel :'))
 meses = (12 * anos) 
 prestaçao = casa / meses 
 if prestaçao < porcen:
- print(f'A quantidade de parcelas do seu contrato será de {meses} vezes de {prestaçao:.2f}')
+ print(f'A quantidade de parcelas do seu contrato será de {meses} vezes de R${prestaçao:.2f}')
 else:
-    print(f'O valor calculado é de {prestaçao} mensais lamento mais excedeu o seu limite ')
+    print(f'O valor calculado é de R${prestaçao:.2f} mensais lamento mais excedeu o seu limite ')
