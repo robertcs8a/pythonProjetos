@@ -8,6 +8,6 @@ for c in range (1, 7):
     if number % 2 == 0:
         s = s + number
         cont = cont + 1
-print(f'numeros digitados {cont} a soma dos numeros é : {s}')
+print(f'numeros pares digitados {cont} a soma dos numeros é : {s}')
     
    
