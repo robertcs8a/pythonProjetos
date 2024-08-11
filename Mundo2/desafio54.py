@@ -5,7 +5,7 @@ atual = date.today().year
 tmaior = 0
 tmenor = 0
 for pess in range(1,8):
-    nasc = int(input(f'Em que ano a {pess}ª pessoa nasceu? '))
+    nasc = int(input(f'Em que ano a {pess}ª pessoa nasceu? \33[0;0m'))
     idade = atual - nasc
     
     if idade >= 21:
