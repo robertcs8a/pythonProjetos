@@ -1,4 +1,4 @@
-# procurar se tem o nome especifidao na string (city)
+# procurar se tem o nome especificado na string (city)
 # metodo usado fatiamento de caracteres 
 
 #localizar o nome "Santo" no inicio do Nome das Cidades Informadas

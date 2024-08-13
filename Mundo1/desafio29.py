@@ -9,7 +9,7 @@ if velocit > 80 :
    print(f'Valor da multa  R$ {multa:.2f} reais')
    if velocit > 100:
      print(f'sua habilitatação perdeu 20 pontos ')
-     if velocit > 150:
+if velocit > 150:
         print('sua habilitação sera suspensa procure um orgão responsavel')
 
 else:

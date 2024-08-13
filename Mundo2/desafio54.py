@@ -1,5 +1,11 @@
 # Crie um programa que leia o ano de nascimento de sete pessoas. No final, mostre quantas pessoas 
  #ainda não atingiram a maioridade e quantas já são maiores.
+print('¨'* 95)
+
+print("Esse programa vai coletar 7 datas de nascimento e informar quantos são maior e menor de idade")
+
+print('¨'*95)
+
 from datetime import date
 atual = date.today().year
 tmaior = 0
